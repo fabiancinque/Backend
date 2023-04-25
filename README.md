@@ -23,13 +23,14 @@ Api to get data from SWAPI
 
     php artisan key:generate
 
-## run migrations
-
-    php artisan migrate
-
-## fill user table
+## Run migrations && fill user table
+The default password it generates is "password"
 
     php artisan migrate --seed
+
+## Generate JWT Token
+
+    php artisan jwt:secret
 
 # REST API
 

@@ -5,7 +5,6 @@ use App\Http\Controllers\Api\v1\ApiController;
 use App\Http\Controllers\Api\v1\AuthController;
 
 Route::group([
-    'middleware' => 'api',
     'prefix' => 'v1/auth'
 
 ], function ($router) {

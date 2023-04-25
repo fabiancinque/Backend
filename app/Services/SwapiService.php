@@ -128,7 +128,7 @@ class SwapiService
         }
     
         // Recortar el array de resultados para que tenga la cantidad exacta de resultados requeridos
-        $results['results'] = array_slice($results, 0, $limit);
+        $results = array_slice($results, 0, $limit);
     
         return $results;
     }
